@@ -1,0 +1,14 @@
+D:\Projetos\learn_dotnetcore\src\Api.Data\bin\Debug\netcoreapp2.2\Data.deps.json
+D:\Projetos\learn_dotnetcore\src\Api.Data\bin\Debug\netcoreapp2.2\Data.dll
+D:\Projetos\learn_dotnetcore\src\Api.Data\bin\Debug\netcoreapp2.2\Data.pdb
+D:\Projetos\learn_dotnetcore\src\Api.Data\obj\Debug\netcoreapp2.2\Data.csprojAssemblyReference.cache
+D:\Projetos\learn_dotnetcore\src\Api.Data\obj\Debug\netcoreapp2.2\Data.csproj.CoreCompileInputs.cache
+D:\Projetos\learn_dotnetcore\src\Api.Data\obj\Debug\netcoreapp2.2\Data.AssemblyInfoInputs.cache
+D:\Projetos\learn_dotnetcore\src\Api.Data\obj\Debug\netcoreapp2.2\Data.AssemblyInfo.cs
+D:\Projetos\learn_dotnetcore\src\Api.Data\obj\Debug\netcoreapp2.2\Data.dll
+D:\Projetos\learn_dotnetcore\src\Api.Data\obj\Debug\netcoreapp2.2\Data.pdb
+D:\Projetos\learn_dotnetcore\src\Api.Data\bin\Debug\netcoreapp2.2\Data.runtimeconfig.json
+D:\Projetos\learn_dotnetcore\src\Api.Data\bin\Debug\netcoreapp2.2\Data.runtimeconfig.dev.json
+D:\Projetos\learn_dotnetcore\src\Api.Data\bin\Debug\netcoreapp2.2\Domain.dll
+D:\Projetos\learn_dotnetcore\src\Api.Data\bin\Debug\netcoreapp2.2\Domain.pdb
+D:\Projetos\learn_dotnetcore\src\Api.Data\obj\Debug\netcoreapp2.2\Data.csproj.CopyComplete

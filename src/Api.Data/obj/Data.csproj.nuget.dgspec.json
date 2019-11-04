@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\learn_dotnetcore\\src\\Api.Data\\Data.csproj": {}
+    "D:\\Projetos\\learn-aspnetcore\\src\\Api.Data\\Data.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\learn_dotnetcore\\src\\Api.Data\\Data.csproj": {
+    "D:\\Projetos\\learn-aspnetcore\\src\\Api.Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\learn_dotnetcore\\src\\Api.Data\\Data.csproj",
+        "projectUniqueName": "D:\\Projetos\\learn-aspnetcore\\src\\Api.Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "D:\\Projetos\\learn_dotnetcore\\src\\Api.Data\\Data.csproj",
+        "projectPath": "D:\\Projetos\\learn-aspnetcore\\src\\Api.Data\\Data.csproj",
         "packagesPath": "C:\\Users\\Patrick\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\learn_dotnetcore\\src\\Api.Data\\obj\\",
+        "outputPath": "D:\\Projetos\\learn-aspnetcore\\src\\Api.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\Projetos\\learn_dotnetcore\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "D:\\Projetos\\learn_dotnetcore\\src\\Api.Domain\\Domain.csproj"
+              "D:\\Projetos\\learn-aspnetcore\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "D:\\Projetos\\learn-aspnetcore\\src\\Api.Domain\\Domain.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "D:\\Projetos\\learn_dotnetcore\\src\\Api.Domain\\Domain.csproj": {
+    "D:\\Projetos\\learn-aspnetcore\\src\\Api.Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\learn_dotnetcore\\src\\Api.Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Projetos\\learn-aspnetcore\\src\\Api.Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Projetos\\learn_dotnetcore\\src\\Api.Domain\\Domain.csproj",
+        "projectPath": "D:\\Projetos\\learn-aspnetcore\\src\\Api.Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Patrick\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\learn_dotnetcore\\src\\Api.Domain\\obj\\",
+        "outputPath": "D:\\Projetos\\learn-aspnetcore\\src\\Api.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -116,6 +116,10 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[5.6.0, )"
             }
           },
           "imports": [

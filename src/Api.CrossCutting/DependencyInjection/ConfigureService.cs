@@ -10,6 +10,7 @@ namespace Api.CrossCutting.DependencyInjection
         {
             // Para cada operação que tiver uma injeção de dependencia criará uma instância de UserService
             serviceCollection.AddTransient<IUserService, UserService>();
+            serviceCollection.AddTransient<ILoginService, LoginService>();
         }
     }
 }

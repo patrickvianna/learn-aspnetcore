@@ -1,5 +1,10 @@
-﻿using Api.CrossCutting.DependencyInjection;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using Api.CrossCutting.DependencyInjection;
 using Api.Domain.Security;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -30,10 +35,30 @@ namespace Application
             services.AddSingleton(signingConfigurations);
 
             var tokenConfigurations = new TokenConfigurations();
-            new ConfigureFromConfigurationOptions<TokenConfigurations>(
-                Configuration.GetSection("TokenConfigurations"))
-                    .Configure(tokenConfigurations);
+            new ConfigureFromConfigurationOptions<TokenConfigurations>(Configuration.GetSection("TokenConfigurations")).Configure(tokenConfigurations);
             services.AddSingleton(tokenConfigurations);
+
+            services.AddAuthentication(authOptions =>
+            {
+                authOptions.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                authOptions.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(bearerOptions =>
+            {
+                var paramnsValidation = bearerOptions.TokenValidationParameters;
+                paramnsValidation.IssuerSigningKey = signingConfigurations.Key;
+                paramnsValidation.ValidAudience = tokenConfigurations.Audience;
+                paramnsValidation.ValidIssuer = tokenConfigurations.Issuer;
+                paramnsValidation.ValidateIssuerSigningKey = true;
+                paramnsValidation.ValidateLifetime = true;
+                paramnsValidation.ClockSkew = TimeSpan.Zero;
+            });
+
+            services.AddAuthorization(auth =>
+            {
+                auth.AddPolicy("Bearer", new AuthorizationPolicyBuilder()
+                .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme)
+                .RequireAuthenticatedUser().Build());
+            });
 
             services.AddSwaggerGen(c =>
             {
@@ -48,6 +73,18 @@ namespace Application
                             Name = "Patrick Vianna",
                             Url = "https://github.com/patrickvianna"
                         }
+                    });
+                    c.AddSecurityDefinition("Bearer", new ApiKeyScheme
+                    {
+                        In = "header",
+                        Description = "Entre com o token JWT",
+                        Name = "Authorization",
+                        Type = "apiKey"
+                    });
+
+                    c.AddSecurityRequirement(new Dictionary<string, IEnumerable<string>> 
+                    {
+                        {"Bearer", Enumerable.Empty<string>()}
                     });
             });
 

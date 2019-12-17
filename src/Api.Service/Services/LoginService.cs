@@ -34,37 +34,41 @@ namespace Api.Service.Services
         {
             var baseUser = new UserEntity();
 
-            if (user != null && !string.IsNullOrWhiteSpace(user.Email))
-            {
+            if (user == null && string.IsNullOrWhiteSpace(user.Email))
+                return new
+                {
+                    authenticated = false,
+                    message = "Falha ao autenticar"
+                };
 
-                baseUser = await _repository.FindByLogin(user.Email);
-                if (baseUser == null)
+            baseUser = await _repository.FindByLogin(user.Email);
+            if (baseUser == null)
+            {
+                return new
                 {
-                    return new
+                    authenticated = false,
+                    message = "Falha ao autenticar"
+                };
+            }
+            else
+            {
+                ClaimsIdentity identity = new ClaimsIdentity(
+                    new GenericIdentity(user.Email),
+                    new[]
                     {
-                        authenticated = false,
-                        message = "Falha ao autenticar"
-                    };
-                }
-                else
-                {
-                    ClaimsIdentity identity = new ClaimsIdentity(
-                        new GenericIdentity(user.Email),
-                        new[]{
                             new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()), // jti o id do token 
                             new Claim(JwtRegisteredClaimNames.UniqueName, user.Email)
-                        }
-                    );
+                    }
+                );
 
-                    DateTime createDate = DateTime.Now;
-                    DateTime expirationDate = createDate + TimeSpan.FromSeconds(_tokenConfigurations.Seconds);
+                DateTime createDate = DateTime.Now;
+                DateTime expirationDate = createDate + TimeSpan.FromSeconds(_tokenConfigurations.Seconds);
 
-                    var handler = new JwtSecurityTokenHandler();
-                    string token = CreateToken(identity, createDate, expirationDate, handler);
-                }
+                var handler = new JwtSecurityTokenHandler();
+                string token = CreateToken(identity, createDate, expirationDate, handler);
+                
+                return SuccessObject(createDate, expirationDate, token, baseUser);
             }
-
-            return null;
         }
 
         private string CreateToken(ClaimsIdentity identity, DateTime createDate, DateTime expirationDate, JwtSecurityTokenHandler handler)
@@ -83,7 +87,7 @@ namespace Api.Service.Services
             return token;
         }
 
-        private object SuccessObject(DateTime createDate, DateTime expirationDate, string token, LoginDto user)
+        private object SuccessObject(DateTime createDate, DateTime expirationDate, string token, UserEntity user)
         {
             return new
             {

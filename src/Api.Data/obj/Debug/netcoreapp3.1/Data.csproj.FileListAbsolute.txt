@@ -1,0 +1,13 @@
+D:\Projetos\learn-aspnetcore\src\Api.Data\bin\Debug\netcoreapp3.1\Data.deps.json
+D:\Projetos\learn-aspnetcore\src\Api.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.json
+D:\Projetos\learn-aspnetcore\src\Api.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
+D:\Projetos\learn-aspnetcore\src\Api.Data\bin\Debug\netcoreapp3.1\Data.dll
+D:\Projetos\learn-aspnetcore\src\Api.Data\bin\Debug\netcoreapp3.1\Data.pdb
+D:\Projetos\learn-aspnetcore\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.dll
+D:\Projetos\learn-aspnetcore\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\Projetos\learn-aspnetcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csprojAssemblyReference.cache
+D:\Projetos\learn-aspnetcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+D:\Projetos\learn-aspnetcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+D:\Projetos\learn-aspnetcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CopyComplete
+D:\Projetos\learn-aspnetcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.dll
+D:\Projetos\learn-aspnetcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.pdb

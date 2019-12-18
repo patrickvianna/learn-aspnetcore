@@ -1,0 +1,15 @@
+D:\Projetos\learn-aspnetcore\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\CrossCutting.deps.json
+D:\Projetos\learn-aspnetcore\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\CrossCutting.dll
+D:\Projetos\learn-aspnetcore\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\CrossCutting.pdb
+D:\Projetos\learn-aspnetcore\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\Data.dll
+D:\Projetos\learn-aspnetcore\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\Domain.dll
+D:\Projetos\learn-aspnetcore\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\Service.dll
+D:\Projetos\learn-aspnetcore\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\Projetos\learn-aspnetcore\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\Service.pdb
+D:\Projetos\learn-aspnetcore\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\Data.pdb
+D:\Projetos\learn-aspnetcore\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.csprojAssemblyReference.cache
+D:\Projetos\learn-aspnetcore\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.AssemblyInfoInputs.cache
+D:\Projetos\learn-aspnetcore\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.AssemblyInfo.cs
+D:\Projetos\learn-aspnetcore\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.csproj.CopyComplete
+D:\Projetos\learn-aspnetcore\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.dll
+D:\Projetos\learn-aspnetcore\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.pdb

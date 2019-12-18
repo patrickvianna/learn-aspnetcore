@@ -11,7 +11,6 @@ D:\Projetos\learn-aspnetcore\src\Api.Domain\bin\Debug\netcoreapp2.2\Domain.deps.
 D:\Projetos\learn-aspnetcore\src\Api.Domain\bin\Debug\netcoreapp2.2\Domain.dll
 D:\Projetos\learn-aspnetcore\src\Api.Domain\bin\Debug\netcoreapp2.2\Domain.pdb
 D:\Projetos\learn-aspnetcore\src\Api.Domain\obj\Debug\netcoreapp2.2\Domain.csprojAssemblyReference.cache
-D:\Projetos\learn-aspnetcore\src\Api.Domain\obj\Debug\netcoreapp2.2\Domain.csproj.CoreCompileInputs.cache
 D:\Projetos\learn-aspnetcore\src\Api.Domain\obj\Debug\netcoreapp2.2\Domain.AssemblyInfoInputs.cache
 D:\Projetos\learn-aspnetcore\src\Api.Domain\obj\Debug\netcoreapp2.2\Domain.AssemblyInfo.cs
 D:\Projetos\learn-aspnetcore\src\Api.Domain\obj\Debug\netcoreapp2.2\Domain.dll

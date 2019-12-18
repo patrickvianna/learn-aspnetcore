@@ -35,7 +35,6 @@ D:\Projetos\learn-aspnetcore\src\Api.Application\bin\Debug\netcoreapp2.2\Service
 D:\Projetos\learn-aspnetcore\src\Api.Application\bin\Debug\netcoreapp2.2\CrossCutting.pdb
 D:\Projetos\learn-aspnetcore\src\Api.Application\bin\Debug\netcoreapp2.2\Data.pdb
 D:\Projetos\learn-aspnetcore\src\Api.Application\obj\Debug\netcoreapp2.2\Application.csprojAssemblyReference.cache
-D:\Projetos\learn-aspnetcore\src\Api.Application\obj\Debug\netcoreapp2.2\Application.csproj.CoreCompileInputs.cache
 D:\Projetos\learn-aspnetcore\src\Api.Application\obj\Debug\netcoreapp2.2\Application.RazorAssemblyInfo.cache
 D:\Projetos\learn-aspnetcore\src\Api.Application\obj\Debug\netcoreapp2.2\Application.RazorAssemblyInfo.cs
 D:\Projetos\learn-aspnetcore\src\Api.Application\obj\Debug\netcoreapp2.2\Application.AssemblyInfoInputs.cache
@@ -44,3 +43,6 @@ D:\Projetos\learn-aspnetcore\src\Api.Application\obj\Debug\netcoreapp2.2\Applica
 D:\Projetos\learn-aspnetcore\src\Api.Application\obj\Debug\netcoreapp2.2\Application.csproj.CopyComplete
 D:\Projetos\learn-aspnetcore\src\Api.Application\obj\Debug\netcoreapp2.2\Application.dll
 D:\Projetos\learn-aspnetcore\src\Api.Application\obj\Debug\netcoreapp2.2\Application.pdb
+D:\Projetos\learn-aspnetcore\src\Api.Application\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\Projetos\learn-aspnetcore\src\Api.Application\bin\Debug\netcoreapp2.2\appsettings.json
+D:\Projetos\learn-aspnetcore\src\Api.Application\bin\Debug\netcoreapp2.2\Properties\launchSettings.json

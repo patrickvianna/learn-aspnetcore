@@ -24,7 +24,6 @@ D:\Projetos\learn-aspnetcore\src\Api.CrossCutting\bin\Debug\netcoreapp2.2\Domain
 D:\Projetos\learn-aspnetcore\src\Api.CrossCutting\bin\Debug\netcoreapp2.2\Service.pdb
 D:\Projetos\learn-aspnetcore\src\Api.CrossCutting\bin\Debug\netcoreapp2.2\Data.pdb
 D:\Projetos\learn-aspnetcore\src\Api.CrossCutting\obj\Debug\netcoreapp2.2\CrossCutting.csprojAssemblyReference.cache
-D:\Projetos\learn-aspnetcore\src\Api.CrossCutting\obj\Debug\netcoreapp2.2\CrossCutting.csproj.CoreCompileInputs.cache
 D:\Projetos\learn-aspnetcore\src\Api.CrossCutting\obj\Debug\netcoreapp2.2\CrossCutting.AssemblyInfoInputs.cache
 D:\Projetos\learn-aspnetcore\src\Api.CrossCutting\obj\Debug\netcoreapp2.2\CrossCutting.AssemblyInfo.cs
 D:\Projetos\learn-aspnetcore\src\Api.CrossCutting\obj\Debug\netcoreapp2.2\CrossCutting.csproj.CopyComplete

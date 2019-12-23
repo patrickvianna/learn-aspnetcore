@@ -1095,6 +1095,7 @@
       },
       "CrossCutting/1.0.0": {
         "dependencies": {
+          "AutoMapper": "9.0.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0",
           "Data": "1.0.0",
           "Domain": "1.0.0",
@@ -1133,6 +1134,7 @@
       },
       "Service/1.0.0": {
         "dependencies": {
+          "AutoMapper": "9.0.0",
           "Data": "1.0.0",
           "Domain": "1.0.0"
         },
